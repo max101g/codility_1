@@ -1,0 +1,20 @@
+### Challenge 1: No ifs no buts ###
+
+Write a function that accepts two numbers a and b and returns whether a is smaller than, bigger than, or equal to b, as a string.
+
+tests/ example
+                (5, 4)   ---> "5 is greater than 4"
+
+                (-4, -7) ---> "-4 is greater than -7"
+
+                (2, 2)   ---> "2 is equal to 2"
+
+
+### Challenge2: Ordered Count of Characters ###
+
+Count the number of occurrences of each character and return it as a (list of arrays) in order of appearance.
+
+tests/example
+                "abracadabra" ---->  [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
+                "Code Wars -----> [['C', 1], ['o', 1], ['d', 1], ['e', 1], [' ', 1], ['W', 1], ['a', 1], ['r', 1], ['s', 1]]
+                "233312", ------> [['2', 2], ['3', 3], ['1', 1 ]]
