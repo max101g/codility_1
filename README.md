@@ -11,8 +11,9 @@
 ## BDD
     1. create an empty array and shovel the values of a into the empty array
     2. map through the array and use chars to turn a into independent characters/ values
-    3. loop through the array and use bubble-sort to put identical elements side by side
-    4. create a new hash 
-    5. iterate through the sorted array
-    6.count the number of identical elements and place them into the new hash
-    7.turn the hash into an array
+    3. if a is empty then return an empt array
+    4. loop through the array and use bubble-sort to put identical elements side by side
+    5. create a new hash 
+    6. iterate through the sorted array
+    7.count the number of identical elements and place them into the new hash
+    8.turn the hash into an array

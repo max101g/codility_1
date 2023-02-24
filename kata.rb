@@ -24,6 +24,8 @@ def ordered_count(a)
     # find the value of the new array
     n = array.length
 
+    # if a is empty then return an empt array
+
     if n == 0
         return arr
     end
