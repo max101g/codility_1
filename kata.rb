@@ -24,6 +24,10 @@ def ordered_count(a)
     # find the value of the new array
     n = array.length
 
+    if n == 0
+        return arr
+    end
+
     # loop through the array and use bubble-sort to put identical elements side by side
 
     loop do
